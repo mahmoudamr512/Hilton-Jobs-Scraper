@@ -3,3 +3,50 @@ BeautifulSoup4
 fake_useragent
 tqdm
 lxml
+
+
+[{"hiringOrganization":{
+      "@type":"Organization",
+      "name":"Hilton Hotels & Resorts, Hilton",
+      "logo":"https://assets.phenompeople.com/CareerConnectResources/pp/HILTGLOBAL/images/job_logo_config-1576666596684.jpg",
+   },
+   "jobLocation":{
+      "address":{
+         "addressCountry":"Maldives",
+         "@type":"PostalAddress",
+         "addressLocality":"Maldives"
+      }
+   },
+   "employmentType":[
+      "FULL_TIME"
+   ],
+   "description":"&lt;p&gt;A Commis Chef is responsible for preparing and presenting high quality dishes to deliver an excellent Guest and Member experience while consistently contributing to departmental targets. &lt;/p&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;What will I be doing?&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;As a Commis Chef, you are responsible for preparing and presenting high quality dishes to deliver an excellent Guest and Member experience. A Commis Chef will also be required to prepare all mis-en-place and contribute to departmental targets. Specifically, you will be responsible for performing the following tasks to the highest standards:&lt;/p&gt;&lt;ul&gt;  \n&lt;li&gt;Ensure consistent great food production, in line with the high quality standards expected by Hilton&lt;/li&gt;    \n&lt;li&gt;Perform tasks within a timely manner&lt;/li&gt;     \n&lt;li&gt;Contribute to Kitchen revenue through effective food cost control&lt;/li&gt;      \n&lt;li&gt;Provide support to the Kitchen brigade&lt;/li&gt;     \n&lt;li&gt;Prepare and present high quality dishes within company guidelines&lt;/li&gt;      \n&lt;li&gt;Keep all working areas clean and tidy and ensure no cross contamination&lt;/li&gt;      \n&lt;li&gt;Prepare all mis-en-place for all relevant menus&lt;/li&gt;      \n&lt;li&gt;Assist other departments wherever necessary and maintain good working relationships&lt;/li&gt;      \n&lt;li&gt;Report maintenance, hygiene and hazard issues&lt;/li&gt;      \n&lt;li&gt;Comply with hotel security, fire regulations and all health and safety and food safety legislation&lt;/li&gt;     \n&lt;li&gt;Awareness departmental targets and strive to achieve them as part of the team&lt;/li&gt;   \n&lt;li&gt;Meet all health and hygiene requirements&lt;/li&gt;   \n&lt;li&gt;Be environmentally aware&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;What are we looking for?&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;A Commis Chef serving Hilton brands is always working on behalf of our Guests and working with other Team Members. To successfully fill this role, you should maintain the attitude, behaviours, skills, and values that follow:&lt;/p&gt;&lt;ul&gt;         \n&lt;li&gt;Previous experience as a Commis Chef or Apprentice Chef&lt;/li&gt; \n&lt;li&gt;NVQ Level 1&lt;/li&gt;     \n&lt;li&gt;Positive attitude&lt;/li&gt;     \n&lt;li&gt;Good communication skills&lt;/li&gt;     \n&lt;li&gt;Ability to work under pressure&lt;/li&gt;     \n&lt;li&gt;Proven ability to work with a team and to follow instruction&lt;/li&gt;     \n&lt;li&gt;A passion to learn and a drive to succeed in a culinary/hospitality career&lt;/li&gt;    \n&lt;li&gt;Proof of completion in a basic food hygiene course&lt;/li&gt;     \n&lt;li&gt;A passion for food and the culinary arts&lt;/li&gt;     \n&lt;li&gt;Completion of an accredited commercial cookery course or trade apprenticeship&lt;/li&gt;     \n&lt;li&gt;Experience multi-tasking and working in an environment with rigorous standards&lt;/li&gt;&lt;/ul&gt;   \n\n&lt;p&gt;It would be advantageous in this position for you to demonstrate the following capabilities and distinctions:&lt;/p&gt;&lt;ul&gt;     \n&lt;li&gt;NVQ Level 2&lt;/li&gt;&lt;/ul&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;What will it be like to work for Hilton?&lt;/b&gt;&lt;br&gt;&lt;br&gt;\n&lt;p&gt;Hilton is the leading global hospitality company, spanning the lodging sector from luxurious full-service hotels and resorts to extended-stay suites and mid-priced hotels. For nearly a century, Hilton has offered business and leisure travelers the finest in accommodations, service, amenities and value. Hilton is dedicated to continuing its tradition of providing exceptional guest experiences across its &lt;a href=\"http://jobs.hiltonworldwide.com/our-brands/index.php\" target=\"_blank\"&gt;global brands&lt;/a&gt;.&nbsp; Our vision &ldquo;to fill the earth with the light and warmth of hospitality&rdquo; unites us as a team to create remarkable hospitality experiences around the world every day.&nbsp; And, our amazing Team Members are at the heart of it all! &lt;/p&gt;\n&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;",
+   "title":"Commis Chef",
+   "datePosted":"2021-12-19T08:20:05.211+0000"
+}, 
+
+{"hiringOrganization":{
+      "@type":"Organization",
+      "name":"Waldorf Astoria Hotels & Resorts, Hilton",
+      "sameAs":"https://jobs.hilton.com/us/en",
+      "logo":"https://assets.phenompeople.com/CareerConnectResources/pp/HILTGLOBAL/images/job_logo_config-1576666596684.jpg",
+      "url":"https://jobs.hilton.com/us/en/job/HOT0811T/Bartender-Waldorf-Astoria-Lusail-Doha"
+   },
+   "jobLocation":{
+      "address":{
+         "addressCountry":"Qatar",
+         "@type":"PostalAddress",
+         "postalCode":"Plot No. LED-ENT/01",
+         "addressLocality":"Doha"
+      },
+   },
+   "employmentType":[
+      "FULL_TIME"
+   ],
+   "@type":"JobPosting",
+   "workHours":"40 hours per week",
+   "description":"&lt;p style=\"font-family: Arial\"&gt;A Bartender engages our guests during their visit, receives/serves orders and ensures brand service standards are met to the highest quality.&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&lt;br /&gt;\n&lt;b&gt;What will I be doing?&lt;/b&gt;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;A Bartender will be responsible for engaging our guests during their visit, receiving/serving orders and ensuring brand service standards are met to the highest quality. Specifically, you will be responsible for performing the following tasks to the highest standards:&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;Receive orders and serve customer requests completely in a timely manner&lt;/li&gt;\n\t&lt;li&gt;Create and serve a range of beverages including classic cocktails, mixers, beer, wine and soft drinks etc.&lt;/li&gt;\n\t&lt;li&gt;Take food orders and assist the floor team with deliveries as required&lt;/li&gt;\n\t&lt;li&gt;Understand menu content, any menu changes, and promotional activities&lt;/li&gt;\n\t&lt;li&gt;Keep your service area clean, tidy, and well-prepared&lt;/li&gt;\n\t&lt;li&gt;Efficiently manage the proper settlement of all customer accounts&lt;/li&gt;\n\t&lt;li&gt;Answer guest queries in a polite and helpful manner&lt;/li&gt;\n&lt;/ul&gt;&lt;p style=\"font-family: Arial\"&gt;&lt;b&gt;What are we looking for?&lt;/b&gt;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;A Bartender serving Hilton brands is always working on behalf of our Guests and working with other Team Members. To successfully fill this role, you should maintain the attitude, behaviours, skills, and values that follow:&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;ul&gt;\n\t&lt;li&gt;Previous experience within a cocktail bar environment&lt;/li&gt;\n\t&lt;li&gt;The ability to create classic cocktails&lt;/li&gt;\n\t&lt;li&gt;Flexibility in hours as you will be working rostered shifts, especially on weekends&lt;/li&gt;\n\t&lt;li&gt;Exceptional personal presentation and communication skills&lt;/li&gt;\n\t&lt;li&gt;Flexibility to respond quickly and positively to a range of work situations&lt;/li&gt;\n\t&lt;li&gt;Passion for delivering exceptional levels of guest service&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&lt;br /&gt;\n&lt;b&gt;What will it be like to work for Hilton?&lt;/b&gt;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;Hilton is the leading global hospitality company, spanning the lodging sector from luxurious full-service hotels and resorts to extended-stay suites and mid-priced hotels. For nearly a century, Hilton has offered business and leisure travelers the finest in accommodations, service, amenities and value. Hilton is dedicated to continuing its tradition of providing exceptional guest experiences across its &lt;a href=\"http://jobs.hiltonworldwide.com/our-brands/index.php\" target=\"_blank\"&gt;global brands&lt;/a&gt;.&nbsp; Our vision &ldquo;to fill the earth with the light and warmth of hospitality&rdquo; unites us as a team to create remarkable hospitality experiences around the world every day.&nbsp; And, our amazing Team Members are at the heart of it all!&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;\n\n&lt;p style=\"font-family: Arial\"&gt;&nbsp;&lt;/p&gt;",
+   "title":"Bartender - Waldorf Astoria Lusail Doha",
+   "datePosted":"2022-01-17T14:19:53.887+0000",
+}
+]

@@ -6,6 +6,7 @@ from pprint import *
 
 
 def main():
+    final_results = []
     print("Starting crawler, crawling all sitemaps of HiltonJobs to find all jobs links")
     c = Crawler()
     links = c.crawl()
@@ -16,6 +17,7 @@ def main():
     print('\033[91m' + "Pushing to elastic db..."+ '\033[0m') 
     final_results = s.final_result
     e = Elastic(final_results)
+    e.push_to_db()
     print('\33[92m' + "Pushed to Elastic!" + '\033[0m')
 
 if __name__ == "__main__":
