@@ -5,21 +5,22 @@ import json
 from multiprocessing import Pool, cpu_count
 import tqdm 
 
-"""
-    Scraper Class aims to scrap the list of jobs taken from main. The main aim of this class is to 
-    verify and validate if the job meets the required fields, then it moves forward and saves it to a temporary list. 
-    The list is then returned at the end for the final step, to be tested against elasticsearch db. 
-"""
+
 class Scraper: 
-    
+    """
+        Scraper Class aims to scrap the list of jobs taken from main. The main aim of this class is to 
+        verify and validate if the job meets the required fields, then it moves forward and saves it to a temporary list. 
+        The list is then returned at the end for the final step, to be tested against elasticsearch db. 
+    """
     
     final_result = []
     
-    """
-        Scraping all the scripts in the given webpage to return the script required for job posting. 
-    """
+    
     @staticmethod
     def scrap_page(site):
+        """
+            Scraping all the scripts in the given webpage to return the script required for job posting. 
+        """
         response = requests.get(site, headers= {'User-Agent': UserAgent().random}, timeout=5)
         response.close()
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -28,12 +29,12 @@ class Scraper:
             script = json.loads("".join(script.contents))
             if script["@type"] == "JobPosting":
                 return script
-
-    """
-        Scraping json+ld (Schema.org) script to extract the required info. 
-    """
+    
     @staticmethod
     def scrap_job(site):
+        """
+            Scraping json+ld (Schema.org) script to extract the required info. 
+        """
         initialData = Scraper.scrap_page(site)
         try:
             return {
@@ -53,7 +54,6 @@ class Scraper:
         except:
             print('\033[91m' + " Job at site " + site + " has been removed."+ "\033[0;33m")
 
-
     def __threaded_scraper(self):
         print("\033[0;33m")
         with Pool(processes=cpu_count()*4) as pool, tqdm.tqdm(
@@ -63,9 +63,10 @@ class Scraper:
                     pbar.update()
 
     
-    """
-        Constructor just takes links to work on them.
-    """
+    
     def __init__(self, links) -> None:
+        """
+            Constructor just takes links to work on them.
+        """ 
         self.__links = links
         self.__threaded_scraper()

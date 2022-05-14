@@ -1,5 +1,6 @@
 from Crawler import *
 from Scraper import *
+from Elastic import *
 from multiprocessing import freeze_support
 from pprint import *
 
@@ -12,9 +13,10 @@ def main():
     print('\33[92m' + "Scraper starting now..."+ '\033[0m') 
     s = Scraper(links)
     print('\33[92m' + "Scraper Finished Successfully..."+ '\033[0m') 
+    print('\033[91m' + "Pushing to elastic db..."+ '\033[0m') 
     final_results = s.final_result
-    pprint(final_results)
-
+    e = Elastic(final_results)
+    print('\33[92m' + "Pushed to Elastic!" + '\033[0m')
 
 if __name__ == "__main__":
     freeze_support()

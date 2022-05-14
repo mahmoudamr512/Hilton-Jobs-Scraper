@@ -42,6 +42,5 @@ class Crawler:
                    
                     pbar.update()
         print('\033[0m')
-
         return self.__scrap_links
 
