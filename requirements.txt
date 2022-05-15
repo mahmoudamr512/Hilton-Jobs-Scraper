@@ -3,3 +3,4 @@ BeautifulSoup4
 fake_useragent
 tqdm
 lxml
+elasticsearch

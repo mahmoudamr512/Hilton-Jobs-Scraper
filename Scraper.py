@@ -50,7 +50,7 @@ class Scraper:
                 "datePosted": initialData["datePosted"] if "datePosted" in initialData else ""
             }
         except:
-            print('\033[91m' + " Job at site " + site + " has been removed."+ "\033[0;33m")
+          pass
 
     def __threaded_scraper(self):
         print("\033[0;33m")
