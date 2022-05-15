@@ -4,8 +4,6 @@ from fake_useragent import UserAgent
 import json
 from multiprocessing import Pool, cpu_count
 import tqdm 
-
-
 class Scraper: 
     """
         Scraper Class aims to scrap the list of jobs taken from main. The main aim of this class is to 
@@ -21,7 +19,7 @@ class Scraper:
         """
             Scraping all the scripts in the given webpage to return the script required for job posting. 
         """
-        response = requests.get(site, headers= {'User-Agent': UserAgent().random}, timeout=5)
+        response = requests.get(site, headers= {'User-Agent': UserAgent().random}, timeout=10)
         response.close()
         soup = BeautifulSoup(response.text, 'html.parser')
         scripts = soup.findAll("script", {"type":"application/ld+json"})
@@ -35,8 +33,8 @@ class Scraper:
         """
             Scraping json+ld (Schema.org) script to extract the required info. 
         """
-        initialData = Scraper.scrap_page(site)
         try:
+            initialData = Scraper.scrap_page(site)
             return {
                 "hiringOrganization":{
                     "name":  initialData["hiringOrganization"]["name"] if "name" in  initialData["hiringOrganization"] else "",
